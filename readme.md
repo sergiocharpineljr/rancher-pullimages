@@ -1,12 +1,8 @@
 # Rancher YALMs to GIT
 
-## Objetivo
+This docker image forces all Rancher container images to be downloaded to Harbor cache repository.
 
-Este script tem o objetivo de manter todas as imagens em cache no Harbor.
-
-## Como Utilizar
-
-Esta imagem está disponível via docker image e pode ser utilizada da seguinte forma:
+## How to use
 
 ``` bash
 docker run --rm -it -e RANCHER_API_URL='<<url rancher api>>' \
