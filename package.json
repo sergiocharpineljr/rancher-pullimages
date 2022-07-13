@@ -1,0 +1,19 @@
+{
+  "name": "harbor-pull-images",
+  "version": "0.0.1",
+  "description": "Pull all rancher images",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/script.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "Apache License 2.0",
+  "dependencies": {
+    "axios": "^0.19.0",
+    "axios-retry": "^3.1.9",
+    "dotenv": "^8.0.0",
+    "require-environment-variables": "^1.2.0"
+  }
+}
