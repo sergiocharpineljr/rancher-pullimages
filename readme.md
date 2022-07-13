@@ -1,4 +1,4 @@
-# Rancher YALMs to GIT
+# Introduction
 
 This docker image forces all Rancher container images to be downloaded to Harbor cache repository.
 
